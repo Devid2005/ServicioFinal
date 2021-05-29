@@ -94,10 +94,33 @@ function segundo(llegada){
         })
         .then( respuesta =>{
             var datosIma = respuesta.data[0].faceAttributes.emotion
-
             var newDataNe = datosIma.anger + datosIma.contempt + datosIma.disgust + datosIma.fear + datosIma.sadness
             var newDataM = datosIma.neutral
             var newDataP = datosIma.happiness + datosIma.surprise
+            
+                console.log( " De acuerdo al analisis de su foto, sus sentimientos son(1 mayor nota): " )
+                if( datosIma.anger > 0 ){
+                    console.log( " Furia: "+datosIma.anger )
+                }
+                if( datosIma.neutral > 0 ){
+                    console.log( " Neutral: "+datosIma.neutral )
+                }
+                if( datosIma.happiness > 0 ){
+                    console.log( " Feliz: "+datosIma.happiness )
+                }
+                if( datosIma.disgust > 0 ){
+                    console.log( " Disgusta: "+datosIma.disgust )
+                }
+                if( datosIma.fear > 0 ){
+                    console.log( " Miedo: "+datosIma.fear )
+                }
+                if( datosIma.sadness > 0 ){
+                    console.log( " Tristeza: "+datosIma.sadness )
+                }
+                if( datosIma.surprise > 0 ){
+                    console.log( " Sorpresa: "+datosIma.surprise )
+                }
+            
             if( (newDataNe > newDataM) && (newDataNe > newDataP) ){
                 for( i = 0; i < valor2.length ; i++){
                     if( valor2[i] !== null ){
@@ -159,3 +182,11 @@ function segundo(llegada){
     tercero(cuatro)
 }
 primer(segundo)
+
+
+
+
+// https://marcianosmx.com/wp-content/uploads/2018/02/hombre-sonriendo-en-medio-de-una-carretera.jpg
+// https://pley.today/__export/1596596781723/sites/mui/img/2020/08/04/9cd077911a00165865a90ca5bf3d7fbd.jpg_697727896.jpg
+// https://static3.depositphotos.com/1008525/244/i/950/depositphotos_2444604-stock-photo-very-sad-little-boy.jpg
+// https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg
