@@ -1,7 +1,10 @@
 // Imagenes que puede usar de prueba:
 // https://pley.today/__export/1596596781723/sites/mui/img/2020/08/04/9cd077911a00165865a90ca5bf3d7fbd.jpg_697727896.jpg
-// https://static3.depositphotos.com/1008525/244/i/950/depositphotos_2444604-stock-photo-very-sad-little-boy.jpg
+// https://st.depositphotos.com/1008939/1951/i/950/depositphotos_19511083-stock-photo-delusion.jpg
 // https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg
+// https://noverbal.es/uploads/blog/rostro-de-un-criminal.jpg
+// https://dorsia.es/wp-content/uploads/2012/06/Florence-Colgate-02.jpg
+// https://cdn.pixabay.com/photo/2021/03/01/14/38/girl-6059888_960_720.jpg
 // En otra ventana de la terminar, ejecutar este programa
 
 const axios = require( 'axios' );
