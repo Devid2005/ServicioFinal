@@ -1,6 +1,8 @@
+// Imagenes que puede usar de prueba:
 // https://pley.today/__export/1596596781723/sites/mui/img/2020/08/04/9cd077911a00165865a90ca5bf3d7fbd.jpg_697727896.jpg
 // https://static3.depositphotos.com/1008525/244/i/950/depositphotos_2444604-stock-photo-very-sad-little-boy.jpg
 // https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg
+// En otra ventana de la terminar, ejecutar este programa
 
 const axios = require( 'axios' );
 
